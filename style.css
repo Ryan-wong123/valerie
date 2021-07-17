@@ -8,6 +8,8 @@
     width: 100% !important;
     height: 100% !important;
     object-position: 50% 50%;
+
+
 }
 
 .content h1 {
@@ -28,11 +30,16 @@
         object-fit: cover;
         width: 100% !important;
         height: 100% !important;
+        object-position: 50% 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
 }
 
-@media screen and (min-width: 133px) and (max-width: 768px) {
+@media screen and (min-width: 64px) and (max-width: 768px) {
     .content h1 {
         font-size: 30px;
     }
@@ -47,7 +54,12 @@
         width: 100% !important;
         height: 100% !important;
         object-position: 50% 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
+
 
 }
 
@@ -74,11 +86,16 @@
         width: 100% !important;
         height: 100% !important;
         object-position: 50% 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
+
 
 }
 
-@media screen and (min-width: 133px) and (max-width: 768px) {
+@media screen and (min-width: 64px) and (max-width: 768px) {
     .content h5 {
         font-size: 18px;
         margin-left: 20px;
@@ -95,7 +112,13 @@
         width: 100% !important;
         height: 100% !important;
         object-position: 50% 50%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
     }
+
 }
 
 
@@ -112,12 +135,4 @@
         height: 100% !important;
         object-position: 50% 50%;
     }
-}
-
-
-.homeCarousell {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
 }
