@@ -1,6 +1,6 @@
 .carousel-item.active,
 .carousel-item .view {
-    height: 50vh !important;
+    height: 100vh !important;
 }
 
 .carousel-item img {
@@ -17,11 +17,22 @@
     .content h1 {
         font-size: 30px;
     }
+
+    .carousel-item.active,
+    .carousel-item .view {
+        height: 50vh !important;
+    }
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
     .content h1 {
         font-size: 30px;
+    }
+
+    .carousel-item.active,
+    .carousel-item .view {
+        height: 50vh !important;
     }
 
 
@@ -40,6 +51,12 @@
         margin-right: 20px
     }
 
+    .carousel-item.active,
+    .carousel-item .view {
+        height: 50vh !important;
+    }
+
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -48,6 +65,12 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .carousel-item.active,
+    .carousel-item .view {
+        height: 50vh !important;
+    }
+
 }
 
 .homeCarousell {
