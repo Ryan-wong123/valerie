@@ -23,9 +23,15 @@
         height: 50vh !important;
     }
 
+    .carousel-item img {
+        object-fit: cover;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 133px) and (max-width: 768px) {
     .content h1 {
         font-size: 30px;
     }
@@ -35,6 +41,11 @@
         height: 50vh !important;
     }
 
+    .carousel-item img {
+        object-fit: cover;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 }
 
@@ -56,10 +67,15 @@
         height: 50vh !important;
     }
 
+    .carousel-item img {
+        object-fit: cover;
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 133px) and (max-width: 768px) {
     .content h5 {
         font-size: 18px;
         margin-left: 20px;
@@ -71,6 +87,11 @@
         height: 50vh !important;
     }
 
+    .carousel-item img {
+        object-fit: cover;
+        width: 100% !important;
+        height: 100% !important;
+    }
 }
 
 .homeCarousell {
