@@ -7,6 +7,7 @@
     object-fit: cover;
     width: 100% !important;
     height: 100% !important;
+    object-position: 50% 50%;
 }
 
 .content h1 {
@@ -45,6 +46,7 @@
         object-fit: cover;
         width: 100% !important;
         height: 100% !important;
+        object-position: 50% 50%;
     }
 
 }
@@ -71,6 +73,7 @@
         object-fit: cover;
         width: 100% !important;
         height: 100% !important;
+        object-position: 50% 50%;
     }
 
 }
@@ -91,6 +94,7 @@
         object-fit: cover;
         width: 100% !important;
         height: 100% !important;
+        object-position: 50% 50%;
     }
 }
 
@@ -106,6 +110,7 @@
         object-fit: cover;
         width: 100% !important;
         height: 100% !important;
+        object-position: 50% 50%;
     }
 }
 
